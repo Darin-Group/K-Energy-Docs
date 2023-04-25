@@ -1,8 +1,8 @@
 site_name: K-Energy
-repo_url: https://github.com/ShiftSoftware
-repo_name: ShiftSoftware/Website
-site_author: Shift Software
-edit_uri: Website/edit/master/docs/
+repo_url: https://github.com/Darin-Group
+repo_name: Darin-Group/K-Energy-Docs
+site_author: K-Energy
+edit_uri: K-Energy-Docs/edit/master/docs/
 site_description: >-
   Fuel Distribution System
 copyright: Copyright &copy; 2023 K-Energy
@@ -10,39 +10,38 @@ default: getting-started
 theme:
   name: material
   custom_dir: docs/overrides
-  logo: assets/images/logo.png
   features:
     - navigation.tracking
     - navigation.tabs
     - navigation.sections
 nav:
     - Home: 'index.md'
-    - About: 
-        - Strategy & Vision: 'about/strategy-and-vision.md'
-        - Code of Conduct: 'about/code-of-conduct.md'
-        - Developers: 'about/developers.md'
-    - Philosophy:
-        - Philosophy:      'philosophy/philosophy.md'
-        - Characteristics: 'philosophy/characteristics.md'
-    - Software Development: 
-        - Tasks:                             'software-development/tasks.md'
-        - Continuous Integration:            'software-development/continuous-integration.md'
-        - Automated Testing:                 'software-development/automated-testing.md'
-        - Continuous Delivery:               'software-development/continuous-delivery.md'
-        #- Active Maintenance:                'software-development/active-maintenance.md'
-    #- Clients: 'clients.md'
+    - Identity: 
+        - Start:            'identity/start.md'
+        - Apps & Scopes:    'identity/apps-and-scopes.md'
+        - Access Trees:     'identity/access-trees.md'
+        - Users:            'identity/users.md'
+    - Web App:
+        - Start:        'web/start.md'
+        - Contacts:     'web/contacts.md'
+        - Products:     'web/products.md'
+        - Storage:      'web/storage.md'
+        - Purchases:    'web/purchases.md'
+        - Sales:        'web/sales.md'
+        - Lab:          'web/lab.md'
+    #- Mobile App: 
+    #    - Start:        'mobile/start.md'
+    - Tutorial:
+        - Start:             'tutorial/start.md'
+        - Contacts:          'tutorial/contacts.md'
+        - Products:          'tutorial/products.md'
+        - Storage:           'tutorial/storage.md'
+        - Lab:               'tutorial/lab.md'
+        - Purchase:          'tutorial/purchase.md'
+        - Sale:              'tutorial/sale.md'
+  
 extra_css:
   - overrides/css/extra.css
-extra:
-  social:
-    - icon: fontawesome/brands/github 
-      link: https://github.com/ShiftSoftware
-    - icon: fontawesome/brands/instagram 
-      link: https://www.instagram.com/shift.software
-    - icon: fontawesome/brands/linkedin 
-      link: https://www.linkedin.com/company/shift-software
-    - icon: fontawesome/brands/facebook 
-      link: https://www.facebook.com/the.shift.software
 
 markdown_extensions:
   - attr_list

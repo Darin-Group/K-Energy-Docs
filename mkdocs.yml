@@ -29,8 +29,10 @@ nav:
         - Purchases:    'web/purchases.md'
         - Sales:        'web/sales.md'
         - Lab:          'web/lab.md'
-    #- Mobile App: 
-    #    - Start:        'mobile/start.md'
+    - Mobile App: 
+        - Start:           'mobile/start.md'
+        - Purchase:        'mobile/purchase.md'
+        - Sale:            'mobile/sale.md'
     - Tutorial:
         - Start:             'tutorial/start.md'
         - Contacts:          'tutorial/contacts.md'
@@ -55,3 +57,6 @@ markdown_extensions:
       permalink: true
   - pymdownx.tabbed:
       alternate_style: true
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg

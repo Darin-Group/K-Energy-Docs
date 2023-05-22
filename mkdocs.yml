@@ -23,6 +23,7 @@ nav:
         - Users:            'identity/users.md'
     - Web App:
         - Start:        'web/start.md'
+        - Components:   'web/components.md'
         - Contacts:     'web/contacts.md'
         - Products:     'web/products.md'
         - Storage:      'web/storage.md'

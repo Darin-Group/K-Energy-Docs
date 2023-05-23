@@ -32,6 +32,7 @@ nav:
         - Lab:          'web/lab.md'
     - Mobile App: 
         - Start:           'mobile/start.md'
+        - Components:      'mobile/components.md'
         - Purchase:        'mobile/purchase.md'
         - Sale:            'mobile/sale.md'
     - Tutorial:
